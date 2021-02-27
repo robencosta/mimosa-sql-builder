@@ -9,9 +9,10 @@ A simple SQL query builder library
 
 ## Creating a simple SELECT query
 
-``java
+```java
 String allUsers = SQL.newQuery()
                      .select("u.name", "u.id")
                      .from("u.users")
                      .get();
                              
+```
