@@ -1,9 +1,9 @@
-package com.robencosta.query.builder;
+package com.robencosta.query.mimosaquerybuilder;
 
-import com.robencosta.query.builder.command.Delete;
-import com.robencosta.query.builder.command.From;
-import com.robencosta.query.builder.command.Select;
-import com.robencosta.query.builder.command.SqlCommand;
+import com.robencosta.query.mimosaquerybuilder.command.Delete;
+import com.robencosta.query.mimosaquerybuilder.command.From;
+import com.robencosta.query.mimosaquerybuilder.command.Select;
+import com.robencosta.query.mimosaquerybuilder.command.SqlCommand;
 
 import java.util.ArrayList;
 import java.util.List;
