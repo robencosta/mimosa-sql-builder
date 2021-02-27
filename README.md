@@ -16,4 +16,4 @@ String allUsers = SQL.newQuery()
                      .get();
                              
 ```
-**Out:** SELECT u.name, u.id FROM u.users
+**Output:** SELECT u.name, u.id FROM u.users
