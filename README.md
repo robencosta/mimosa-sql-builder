@@ -3,6 +3,6 @@ A simple SQL query builder library
 
 ## Stack
 
-* Java 11
+* Java 8
 * JUnit and Mockito for tests
 * Maven
