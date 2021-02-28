@@ -15,8 +15,8 @@ A simple SQL query builder library
 
 ```java
 String allUsers = SQL.builder()
-                     .select("u.name", "u.id")
-                     .from("u.users")
+                     .select("name", "id")
+                     .from("users")
                      .build();
 ```
-**Output:** SELECT u.name, u.id FROM u.users
+**Output:** SELECT name, id FROM users
