@@ -1,4 +1,4 @@
-package com.robencosta.query.builder;
+package com.robencosta.query.mimosaquerybuilder;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,10 +9,10 @@ class SQLTest {
     @Test
     void shouldReturnsASelectQueryFromUsersTable() {
 
-        String allUsers = SQL.newQuery()
+        String allUsers = SQL.builder()
                              .select("u.name", "u.id")
                              .from("u.users")
-                             .get();
+                             .build();
 
         assertEquals("SELECT u.name, u.id FROM u.users", allUsers);
     }
