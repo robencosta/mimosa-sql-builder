@@ -1,6 +1,6 @@
-package com.robencosta.query.builder.command;
+package com.robencosta.query.mimosaquerybuilder.command;
 
-import com.robencosta.query.builder.constant.SpecialCharacters;
+import com.robencosta.query.mimosaquerybuilder.constant.SpecialCharacters;
 
 public interface SqlCommand {
 

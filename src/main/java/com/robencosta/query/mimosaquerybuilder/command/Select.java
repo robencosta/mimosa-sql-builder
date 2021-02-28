@@ -1,9 +1,9 @@
-package com.robencosta.query.builder.command;
+package com.robencosta.query.mimosaquerybuilder.command;
 
-import com.robencosta.query.builder.constant.SpecialCharacters;
-import com.robencosta.query.builder.constant.SqlKeyWords;
-import com.robencosta.query.builder.helper.JoinStringColumns;
-import com.robencosta.query.builder.parameter.ArgumentValidator;
+import com.robencosta.query.mimosaquerybuilder.constant.SpecialCharacters;
+import com.robencosta.query.mimosaquerybuilder.constant.SqlKeyWords;
+import com.robencosta.query.mimosaquerybuilder.util.JoinStringColumns;
+import com.robencosta.query.mimosaquerybuilder.util.ArgumentValidator;
 
 import java.util.List;
 
