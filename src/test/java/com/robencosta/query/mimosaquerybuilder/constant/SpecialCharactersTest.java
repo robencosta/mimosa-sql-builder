@@ -1,6 +1,5 @@
 package com.robencosta.query.mimosaquerybuilder.constant;
 
-import com.robencosta.query.mimosaquerybuilder.constant.SpecialCharacters;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -10,18 +10,21 @@ import java.util.List;
 
 public final class SQL {
 
-    private final List<SqlCommand> sqlCommand = new ArrayList<>();
-    private final StringBuilder builder = new StringBuilder();
+    private final List<SqlCommand> sqlCommand;
+    private final StringBuilder stringBuilder;
 
-    private SQL() {}
+    private SQL(List<SqlCommand> sqlCommand, StringBuilder stringBuilder) {
+        this.sqlCommand = sqlCommand;
+        this.stringBuilder = stringBuilder;
+    }
 
-    public SQL select(String... columns) {
-        this.sqlCommand.add(Select.newInstance(columns));
+    public SQL select(String... columnsOrOtherArgs) {
+        this.sqlCommand.add(Select.newInstance(columnsOrOtherArgs));
         return this;
     }
 
-    public SQL from(String... columns) {
-        this.sqlCommand.add(From.newInstance(columns));
+    public SQL from(String... tablesOrOtherArgs) {
+        this.sqlCommand.add(From.newInstance(tablesOrOtherArgs));
         return this;
     }
 
@@ -31,11 +34,11 @@ public final class SQL {
     }
 
     public String build() {
-        sqlCommand.forEach(command -> builder.append(command.get()));
-        return builder.toString();
+        sqlCommand.forEach(command -> stringBuilder.append(command.get()));
+        return stringBuilder.toString();
     }
 
     public static SQL builder() {
-        return new SQL();
+        return new SQL(new ArrayList<>(), new StringBuilder());
     }
 }
