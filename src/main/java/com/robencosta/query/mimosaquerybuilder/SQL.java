@@ -30,12 +30,12 @@ public final class SQL {
         return this;
     }
 
-    public String get() {
+    public String build() {
         sqlCommand.forEach(command -> builder.append(command.get()));
         return builder.toString();
     }
 
-    public static SQL newQuery() {
+    public static SQL builder() {
         return new SQL();
     }
 }
