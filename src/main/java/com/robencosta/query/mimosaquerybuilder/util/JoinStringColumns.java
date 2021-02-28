@@ -2,16 +2,17 @@ package com.robencosta.query.mimosaquerybuilder.util;
 
 import java.util.Arrays;
 
-public class JoinStringColumns {
+public final class JoinStringColumns {
 
     private JoinStringColumns() {}
 
-    public static String joinAll(String... columns) {
+    public static String joinAll(String... columnsOrOtherArgs) {
 
-        StringBuilder builder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
 
-        Arrays.asList(columns).stream().forEach(builder::append);
+        Arrays.asList(columnsOrOtherArgs)
+              .forEach(stringBuilder::append);
 
-        return builder.toString();
+        return stringBuilder.toString();
     }
 }
