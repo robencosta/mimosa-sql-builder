@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/klugjo/hexo-autolinker.svg?branch=master)](https://travis-ci.org/github/robencosta/mimosa-sql-builder)
+
 # Mimosa SQL Builder
 A simple SQL query builder library
 
