@@ -10,10 +10,10 @@ A simple SQL query builder library
 ## Creating a simple SELECT query
 
 ```java
-String allUsers = SQL.newQuery()
+String allUsers = SQL.builder()
                      .select("u.name", "u.id")
                      .from("u.users")
-                     .get();
+                     .build();
                              
 ```
 **Output:** SELECT u.name, u.id FROM u.users
