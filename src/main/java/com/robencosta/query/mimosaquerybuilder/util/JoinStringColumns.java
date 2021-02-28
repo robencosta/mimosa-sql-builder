@@ -1,4 +1,4 @@
-package com.robencosta.query.builder.helper;
+package com.robencosta.query.mimosaquerybuilder.util;
 
 import java.util.Arrays;
 
