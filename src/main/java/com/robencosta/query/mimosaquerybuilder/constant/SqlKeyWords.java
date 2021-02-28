@@ -1,4 +1,4 @@
-package com.robencosta.query.builder.constant;
+package com.robencosta.query.mimosaquerybuilder.constant;
 
 public enum SqlKeyWords {
 
