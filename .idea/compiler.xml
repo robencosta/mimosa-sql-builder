@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="query-builder" />
+        <module name="mimosa-sql-builder" />
       </profile>
     </annotationProcessing>
   </component>
