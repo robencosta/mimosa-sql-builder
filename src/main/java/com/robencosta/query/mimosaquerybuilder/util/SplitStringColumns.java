@@ -1,6 +1,6 @@
-package com.robencosta.query.builder.helper;
+package com.robencosta.query.mimosaquerybuilder.util;
 
-import com.robencosta.query.builder.constant.SpecialCharacters;
+import com.robencosta.query.mimosaquerybuilder.constant.SpecialCharacters;
 
 import java.util.Arrays;
 import java.util.List;
