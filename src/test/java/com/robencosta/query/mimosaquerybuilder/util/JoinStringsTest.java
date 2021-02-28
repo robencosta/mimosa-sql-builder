@@ -1,7 +1,7 @@
-package com.robencosta.query.builder.helper;
+package com.robencosta.query.mimosaquerybuilder.util;
 
-import com.robencosta.query.builder.command.From;
-import com.robencosta.query.builder.command.Select;
+import com.robencosta.query.mimosaquerybuilder.command.From;
+import com.robencosta.query.mimosaquerybuilder.command.Select;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
