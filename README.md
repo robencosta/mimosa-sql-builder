@@ -7,7 +7,9 @@ A simple SQL query builder library
 * JUnit and Mockito for tests
 * Maven
 
-## Creating a simple SELECT query
+## How to use?
+
+### 1. Creating a simple SELECT query
 
 ```java
 String allUsers = SQL.builder()
