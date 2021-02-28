@@ -1,7 +1,6 @@
-package com.robencosta.query.builder.parameter;
+package com.robencosta.query.mimosaquerybuilder.util;
 
-import com.robencosta.query.builder.constant.SpecialCharacters;
-import com.robencosta.query.builder.helper.SplitStringColumns;
+import com.robencosta.query.mimosaquerybuilder.constant.SpecialCharacters;
 
 import java.util.Arrays;
 import java.util.Collections;
