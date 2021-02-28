@@ -14,6 +14,5 @@ String allUsers = SQL.builder()
                      .select("u.name", "u.id")
                      .from("u.users")
                      .build();
-                             
 ```
 **Output:** SELECT u.name, u.id FROM u.users
