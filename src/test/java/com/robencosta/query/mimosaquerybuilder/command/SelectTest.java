@@ -1,4 +1,4 @@
-package com.robencosta.query.builder.command;
+package com.robencosta.query.mimosaquerybuilder.command;
 
 import org.junit.jupiter.api.Test;
 
